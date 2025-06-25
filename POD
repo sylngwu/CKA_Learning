@@ -1,5 +1,0 @@
-****Quick one-liner to spin up a Pod**********
-kubectl run nginx-pod \
-  --image=nginx:1.27-alpine \
-  --port=80 \
-  --restart=Never    # “Never” = create a single Pod, not a Deployment
